@@ -1,0 +1,45 @@
+# VS Code
+/.vscode
+
+#
+# Terraform / Terragrunt
+#
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock files
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terragrunt hack
+**/.terragrunt-cache/*
+backend.tf
+
+set_vars*
+
+# Kitchen
+.kitchen
+
+# Python
+.pytest_cache
+__pycache__
+.venv
+
+# Helm dir
+out/
+Chart.lock
+charts/
